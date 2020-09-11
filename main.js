@@ -3,7 +3,7 @@
 let decimalNumber = prompt("What is the decimal number?");
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-let binaryNumber =  decimalNumber / 2)
+let binaryNumber =  decimalNumber / 2
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -21,7 +21,7 @@ if(remainder1 == 10){
 }else if(remainder1 == 14){
     remainder1 == "E";
 }else if(remainder1 == 15){
-    remainder1 == "F";
+    remainder1 == "F"
 }
 
 
