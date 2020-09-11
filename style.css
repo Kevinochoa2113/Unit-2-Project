@@ -27,17 +27,21 @@ body{
 h1{
     color: #34837c;
     text-align: center;
-    font-size: 65px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .body-header{
     color: #EFD6AC;
     text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .body-text{
     color: white;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .url-links{
