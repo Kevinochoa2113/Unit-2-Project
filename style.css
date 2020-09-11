@@ -1,0 +1,32 @@
+/*
+Color Pallete:
+Background: #04151F
+Sub-Backgrounds: #183A37
+Sub-Headers:#EFD6AC
+Headers: #C44900
+Link-Selected: #432534
+Text: #ecbe6e
+*/
+
+body{
+    background-color: #04151F;
+}
+
+h1{
+    color: #C44900;
+}
+
+.body-header{
+    color: #EFD6AC;
+}
+
+.body-text{
+    color: white;
+}
+
+.url-links{
+    color: #a8527d;
+}
+.url-links:hover{
+    color: #432534; 
+}
