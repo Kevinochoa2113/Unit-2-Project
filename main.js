@@ -18,6 +18,10 @@ if(remainder1 == 10){
     remainder1 == "C";
 }else if(remainder1 == 13){
     remainder1 == "D";
+}else if(remainder1 == 14){
+    remainder1 == "E";
+}else if(remainder1 == 15){
+    remainder1 == "F";
 }
 
 
