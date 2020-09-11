@@ -8,20 +8,36 @@ Link-Selected: #432534
 Text: #ecbe6e
 */
 
+.content{
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 50%;
+    border: 3px solid #C44900;
+    padding: 10px;
+}
+
 body{
     background-color: #04151F;
 }
 
 h1{
-    color: #C44900;
+    color: #34837c;
+    text-align: center;
+    font-size: 65px;
 }
 
 .body-header{
     color: #EFD6AC;
+    text-align: center;
 }
 
 .body-text{
     color: white;
+    text-align: center;
 }
 
 .url-links{
