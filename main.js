@@ -70,6 +70,5 @@ if (eighthRemainder1 == 0){
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /*This two lines of code will take the given decimal number and then keeps on dividing the it by 16 to get the hexadecimal.
 */
-let hexadecimalAnswer = decimalNumber.toString(16);
 
-console.log(`The hexadecimal of ${decimalNumber} is ${hexadecimalAnswer}`);
+console.log(`The hexadecimal of ${decimalNumber} is ${decimalNumber.toString(16)}`);
