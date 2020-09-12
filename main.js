@@ -1,5 +1,4 @@
-
-
+/*This program will ask for a decimal number, then it will convert that given decimal number into a binary and hexadecimal number.*/
 let decimalNumber = Number(prompt("What is the decimal number?"));
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /* This is the part of the code that will solve to convert the given decimal number into a binary number*/
@@ -42,20 +41,20 @@ ninthRemainder2 = (Math.ceil(eighthRemainder1 / 2) - (ninthRemainder1));
 
 //This if statement will see if the "eighthRemainder1" can divided down anymore and if so it will keep on dividing "eighthRemainder1". Then it will slip out the answer into the console.
 if (eighthRemainder1 > 0){
-    let leftOvers = eighthRemainder1.toString(2)
+    let leftOvers = eighthRemainder1.toString(2);
     
     if (leftOvers < 10){
-        leftOvers = "000" + leftOvers
+        leftOvers = "000" + leftOvers;
         
     }else if(leftOvers < 100){
-        leftOvers = "00" + leftOvers
+        leftOvers = "00" + leftOvers;
     
     }else if(leftOvers < 1000){
-        leftOvers = "0" + leftOvers
+        leftOvers = "0" + leftOvers;
     }else if(leftOvers == 10){
-        leftOvers = "00" + leftOvers
+        leftOvers = "00" + leftOvers;
     }else if(leftOvers == 100){
-        leftOvers = "0" + leftOvers
+        leftOvers = "0" + leftOvers;
     }
     
 
@@ -73,4 +72,4 @@ if (eighthRemainder1 == 0){
 */
 let hexadecimalAnswer = decimalNumber.toString(16);
 
-console.log(`The hexadecimal of ${decimalNumber} is ${hexadecimalAnswer}`)
+console.log(`The hexadecimal of ${decimalNumber} is ${hexadecimalAnswer}`);
