@@ -74,8 +74,3 @@ if (eighthRemainder1 == 0){
 let hexadecimalAnswer = decimalNumber.toString(16);
 
 console.log(`The hexadecimal of ${decimalNumber} is ${hexadecimalAnswer}`)
-
-
-
-
-
