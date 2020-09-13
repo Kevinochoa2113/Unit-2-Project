@@ -68,7 +68,7 @@ if (eighthRemainder1 == 0){
 }
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/*This two lines of code will take the given decimal number and then keeps on dividing the it by 16 to get the hexadecimal.
+/*This line of code will take the given decimal number and then it will keep on dividing the given decimal number by 16 to it to a hexadecimal number.
 */
 
 console.log(`The hexadecimal of ${decimalNumber} is ${decimalNumber.toString(16)}`);
