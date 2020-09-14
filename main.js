@@ -7,7 +7,7 @@ firstRemainder1 = Math.floor(decimalNumber / 2);
 
 firstRemainder2 = (Math.ceil(decimalNumber / 2) - (firstRemainder1));
 //
-secondRemainder1 = Math.floor(firstRemainder1 / 2);
+secondRemainder1 = Math.floor(firstRemainder1 / 2); 
 
 secondRemainder2 = (Math.ceil(firstRemainder1 / 2) - (secondRemainder1));
 //
