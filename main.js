@@ -2,7 +2,7 @@
 let decimalNumber = Number(prompt("What is the decimal number?"));
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /* This is the part of the code that will solve to convert the given decimal number into a binary number*/
-//this part will divide the decimal number by 2, to get the remainder for the answer later on. Will also keep on divide the answer to "...Remainder1"
+//this part will divide the decimal number by 2, to get the remainder for the answer later on. Will also keep on divide the answer to "...Remainder1" to find the answer to "... Remainder2"
 firstRemainder1 = Math.floor(decimalNumber / 2);
 
 firstRemainder2 = (Math.ceil(decimalNumber / 2) - (firstRemainder1));
@@ -39,7 +39,7 @@ ninthRemainder1 = Math.floor(eighthRemainder1 / 2);
 
 ninthRemainder2 = (Math.ceil(eighthRemainder1 / 2) - (ninthRemainder1));
 
-//This if statement will see if the "eighthRemainder1" can divided down anymore and if so it will keep on dividing "eighthRemainder1". Then it will slip out the answer into the console.
+//This if statement will see if the "eighthRemainder1" can divided down anymore and if so it will keep on dividing "eighthRemainder1". Then it will spit out the answer into the console.
 if (eighthRemainder1 > 0){
     let leftOvers = eighthRemainder1.toString(2);
     
@@ -61,7 +61,7 @@ if (eighthRemainder1 > 0){
     console.log(`The binary of ${decimalNumber} is ${leftOvers} ${eighthRemainder2}${seventhRemainder2}${sixthRemainder2}${fifthRemainder2} ${fourthRemainder2}${thirdRemainder2}${secondRemainder2}${firstRemainder2}`);
 
 }
-//This if statement will slip out the binary of the given decimal only if "eighthRemainder1" can't be divided down anymore.
+//This if statement will spit out the binary of the given decimal only if "eighthRemainder1" can't be divided down anymore.
 if (eighthRemainder1 == 0){
 
     console.log(`The binary of ${decimalNumber} is ${eighthRemainder2}${seventhRemainder2}${sixthRemainder2}${fifthRemainder2} ${fourthRemainder2}${thirdRemainder2}${secondRemainder2}${firstRemainder2}`);
