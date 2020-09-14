@@ -30,7 +30,7 @@ sixthRemainder2 = (Math.ceil(fifthRemainder1 / 2) - (sixthRemainder1));
 seventhRemainder1 = Math.floor(sixthRemainder1 / 2);
 
 seventhRemainder2 = (Math.ceil(sixthRemainder1 / 2) - (seventhRemainder1));
-//
+// 
 eighthRemainder1 = Math.floor(seventhRemainder1 / 2);
 
 eighthRemainder2 = (Math.ceil(seventhRemainder1 / 2) - (eighthRemainder1));
